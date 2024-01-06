@@ -1,0 +1,30 @@
+Warning: Can't perform a React state update on an unmounted component.
+This is a no-op, but it indicates a memory leak in your application.
+To fix, cancel all subscriptions and asynchronous tasks in the componentWillUnmount
+method.
+    in TextLayerInternal (created by Context.Consumer)
+    in TextLayer (created by PageInternal) index.js:1446
+d/console[e]
+index.js:1446
+warningWithoutStack
+react-dom.development.js:520
+warnAboutUpdateOnUnmounted
+react-dom.development.js:18238
+scheduleWork
+react-dom.development.js:19684
+enqueueSetState
+react-dom.development.js:12936
+./node_modules/react/cjs/react.development.js/Component.prototype.setState
+react.development.js:356
+_callee$
+TextLayer.js:97
+tryCatch
+runtime.js:63
+invoke
+runtime.js:282
+defineIteratorMethods/</prototype[method]
+runtime.js:116
+asyncGeneratorStep
+asyncToGenerator.js:3
+_throw
+asyncToGenerator.js:29
